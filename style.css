@@ -1,0 +1,259 @@
+html { box-sizing: border-box; }
+*, :after, :before { box-sizing: inherit; }
+
+/*general elements*/
+body {
+    margin: 0;
+    margin: auto;
+    padding: 0 20px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+
+    text-align: center;
+}
+
+button {
+    padding: 10px 30px;
+
+    border-radius: 20px;
+    border: none;
+
+    color:white;
+    font-size: 14px;
+}
+
+header {
+    margin-bottom: 60px;
+}
+
+h1 {
+    font-size: 28px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+p {
+    color: grey;
+}
+
+/*header*/
+.happy-traveler {
+    max-width: 350px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.underline {
+    border-top: 2px solid #407BFF;
+    max-width: 60px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+
+.btn-1 button {
+    background-color: #407BFF;
+    margin: 10px;
+}
+
+.btn-2 button {
+    background-color: #8B8B8B;
+}
+
+/*services*/
+
+.service {
+    margin-bottom: 60px;;
+    margin-top: 60px;
+}
+
+
+.offer {
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px;
+   
+    box-shadow: 0 4px 6px #407BFF1F;;
+    width: 100%;
+    font-size: 13px;
+}
+
+.service-part2 {
+    margin-top: 30px;
+}
+
+.service-part2 div {
+    display: flex;
+}
+
+.icon {
+    max-width: 45px;
+    margin-right: 30px;
+}
+
+
+
+@media screen and (min-width: 641px) {
+
+    /*general*/
+    p {
+        margin: auto;
+    }
+
+    .text-block{
+        margin: auto;
+        margin-top: 20px;
+        max-width: 550px;
+    }
+    .buttons {
+        margin: auto;
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        max-width: 560px;
+    }
+
+    h1 {
+        margin-top: 30px;
+    }
+
+    /*header*/
+    .underline {
+        margin-bottom: 30px;
+    }
+    .btn-1 button {
+        margin-top: 0;
+        margin-right: 20px;
+    }
+
+    /*service*/
+
+    .service {
+        margin-top: 80px;
+    }
+
+    .service-part2 {
+        display: flex;
+        margin-top: 40px;
+    }
+
+    .offer p {
+        font-size: 13px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 20px;
+    }
+
+    .offer {
+        display: flex;
+        flex-direction: column;
+        margin-right: 20px;
+    }
+
+    .offer img {
+        margin: auto;
+    
+    }
+
+}
+
+@media screen and (min-width: 1100px) {
+
+    body {
+        max-width: 1040px;
+    }
+
+    header {
+        display: flex;
+        margin-top: 80px;
+        flex-direction: row-reverse;
+    }
+
+    p {
+        max-width: 500px;
+        text-align: left;
+    }
+
+    h1 {
+            text-align: left;
+        }
+
+    .buttons {
+        display: flex;
+        margin-left: 0;
+        margin-right: auto;
+        text-align: left;
+        justify-content: flex-start;
+    }
+
+    .butn-1 button {
+        margin-left: 0;
+    }
+
+    
+
+    .half-happy {
+        margin-top: 60px;
+    }
+
+    .agency {
+        display: flex;
+        max-width: 100%;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    .service-part2 {
+        display: flex;
+        max-width: 540px;
+    }
+
+    h2 {
+        margin-top: 40px;
+        text-align: left;
+    }
+
+    .offer {
+        padding: 10px;
+    }
+
+    .delegates {
+        display: flex;
+        max-width: 100%;
+        justify-content: space-between;
+    }
+
+    .service-part1 {
+        max-width: 540px;
+        padding: 10px;
+    }
+    
+    p {
+        font-size: 16px;
+    }
+
+    .offer p {
+        font-size: 13px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .offer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .offer img {
+        margin: auto;
+        padding: 10px;
+    }
+
+    .border-bottom {
+       margin-left: 0;
+    }
+}
